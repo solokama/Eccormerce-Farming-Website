@@ -1,0 +1,141 @@
+
+        
+       /* Styling the Body  */ 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            cursor: pointer;
+        }
+
+        /* Styling the sidebar */
+        .sidebar {
+            width: 250px;
+            background-color:#333;
+            color: white;
+            height: 100vh;
+            padding-top: 20px;
+            position: fixed;
+        }
+        /* styling sidebar links */
+        .sidebar a {
+            padding: 13px 40px;
+            text-decoration: none;
+            color: white;
+            display: block;
+            font-weight: bold;
+    
+        }
+        /* Adding hover effect to sidebar links */
+        .sidebar a:hover {
+            background-color: #8b8686;
+            text-decoration: underline;
+        }
+        /* Styling the content */
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            width: 100%;
+            height: auto;
+            word-spacing: 5px;
+        }
+
+
+        /* Styling the header  */
+        .header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border-radius:2px;
+        }
+
+
+        /* Styling the footer */
+        .footer {
+            background-color: #ccc;
+            color: #000;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin-left: 5px;
+            font-weight: 600;
+        }
+
+        /* Styling a footer class called Its Irakli */
+        .irakli{
+            color: red;
+            font-weight: bolder;
+        }
+
+        /* Styling the Container products  */
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+        /* Styling each product card */
+        .product {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* styling the images inside the card */
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Contact Us Form Styles */
+            #contact-form {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 100px;
+                padding: 20px;
+                max-width: 600px;
+                background-color: #f4f4f4;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                text-shadow: 3px 3px 30px;
+            }
+
+           /* Styling the contact form label */
+            #contact-form label {
+                margin-bottom: 5px;
+                font-weight: bold;
+                font-size:1.1rem;
+
+            }
+
+              /* Styling the contact form inputs and textarea */
+                #contact-form input,
+                #contact-form textarea {
+                    margin-bottom: 15px;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    width: 95%;
+                }
+
+                /* Styling the contact form buttons */
+                #contact-form button {
+                padding: 10px 20px;
+                background-color: #333;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                width:100% ;
+            }
+
+                /* Adding hover effect on the contact form button */
+                #contact-form button:hover {
+                    background-color: #575757;
+                }
